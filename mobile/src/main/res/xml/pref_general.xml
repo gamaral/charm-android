@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="10"
+        android:key="recent_count"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:inputType="numberDecimal"
+        android:title="Recent Tasks" />
+</PreferenceScreen>

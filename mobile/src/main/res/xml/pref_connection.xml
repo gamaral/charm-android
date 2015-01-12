@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="localhost"
+        android:key="connection_hostname"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:title="Hostname" />
+
+    <EditTextPreference
+        android:defaultValue="5323"
+        android:key="connection_port"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:inputType="numberDecimal"
+        android:title="Port" />
+</PreferenceScreen>
